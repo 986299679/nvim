@@ -15,7 +15,7 @@ nnoremap <silent> <leader>a :Rg<cr>
 ""Rg has some cpu occupy problems in wsl
 "nnoremap <silent> <leader>a :Rg<cr> " some cpu bugs for rg
 nnoremap <silent> <leader>b :Buffers<cr>
-nnoremap <silent> <leader>e :CocFzfList extensions<cr>
+nnoremap <silent> <leader>e :CocList extensions<cr>
 nnoremap <silent> <leader>ss :Snippets<cr>
 nnoremap <silent> <leader>ct :Colors<cr>
 nnoremap <silent> <leader>mk :Marks<cr>

@@ -75,14 +75,12 @@ nmap <silent> sr <Plug>(coc-rename)
 nmap <silent> sf <Plug>(coc-format)
 vmap <silent> sf <Plug>(coc-format-selected)
 
-"nnoremap <silent> sy :CocFzfList yank<cr>
-"nnoremap <silent> so :CocFzfList actions<cr>
 nnoremap <silent> so :CocAction<cr>
-nnoremap <silent> sd :CocFzfList diagnostics<cr>
-nnoremap <silent> ss :CocFzfList symbols<cr>
-nnoremap <silent> sc :CocFzfList commands<cr>
-nnoremap <silent> se :CocFzfList location<cr>
-nnoremap <silent> st :CocFzfList outline<cr>
+nnoremap <silent> sd :CocList diagnostics<cr>
+nnoremap <silent> ss :CocList symbols<cr>
+nnoremap <silent> sc :CocList commands<cr>
+nnoremap <silent> se :CocList location<cr>
+nnoremap <silent> st :CocList outline<cr>
 nnoremap <silent> sg :CocCommand git.showCommit<cr>
 
 "--- Can be replace now

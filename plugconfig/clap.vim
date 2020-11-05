@@ -11,7 +11,6 @@ let s:user_color_vim        = expand($root. '/colors/colors.vim')
 let s:user_plugins_vim      = expand($root. '/core/plugins.vim')
 let s:user_variable_vim     = expand($root. '/core/variables.vim')
 let s:user_zshrc            = expand($HOME . '/.zshrc')
-"let s:user_tmux_conf        = expand($HOME . '/.tmux.conf')
 
 "let g:clap_cache_directory = $DATA_PATH . '/clap'
 let g:clap_cache_directory = $HOME . '/.vim/cache/clap'

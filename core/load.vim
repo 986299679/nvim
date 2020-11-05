@@ -24,7 +24,7 @@ source $root/plugconfig/snippet.vim
 
 source $root/plugconfig/whichkey.vim
 
-source $root/plugconfig/fzf.vim
+source $root/plugconfig/clap.vim
 
 source $root/plugconfig/spaceline.vim
 

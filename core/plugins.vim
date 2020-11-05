@@ -9,7 +9,7 @@ Plug '986299679/spaceline.vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'do' : './install --bin'}
 Plug 'junegunn/fzf.vim'
-Plug 'antoinemadec/coc-fzf'
+Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!' }
 
 " Taglist
 Plug 'liuchengxu/vista.vim'
